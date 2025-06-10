@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 140px;
+  font-family: Philosopher;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+.header img {
+  width: 50%;
+}
+
+.header-left h1 {
+  font-size: 36px;
+}
+
+.header-left p {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.header-btns {
+  display: flex;
+  gap: 20px;
+}
+
+.order_now {
+  width: 148px;
+  height: 50px;
+  background-color: #dc780b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.food_details {
+  width: 148px;
+  height: 50px;
+  color: #dc780b;
+  background-color: white;
+  border: 1px solid #dc780b;
+  border-radius: 5px;
+}

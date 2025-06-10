@@ -1,0 +1,30 @@
+.feature-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+.feature-card img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.feature-card h3 {
+  font-family: "Philosopher";
+  text-align: center;
+}
+
+.feature-card p {
+  text-align: center;
+  color: #999;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  gap: 10px;
+}
